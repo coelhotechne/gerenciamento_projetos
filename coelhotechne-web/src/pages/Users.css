@@ -1,0 +1,58 @@
+@import "../styles/tokens.css";
+
+.role-legend {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-3);
+  margin-bottom: var(--space-5);
+}
+.role-legend-item {
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--surface);
+}
+.role-legend-item h4 {
+  font-size: 12.5px;
+  margin-bottom: 4px;
+}
+.role-legend-item p {
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.access-chips {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  max-width: 260px;
+}
+
+.permission-matrix {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  max-height: 260px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: var(--space-2);
+}
+.permission-matrix-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: 7px 8px;
+  border-radius: var(--radius-sm);
+  font-size: 13px;
+}
+.permission-matrix-row:hover {
+  background: var(--surface-hover);
+}
+
+@media (max-width: 1100px) {
+  .role-legend {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

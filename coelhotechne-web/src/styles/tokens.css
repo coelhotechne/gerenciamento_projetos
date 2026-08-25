@@ -1,0 +1,62 @@
+:root {
+  /* ---- superfícies ---- */
+  --bg: #0a0e16;
+  --surface: #10151f;
+  --surface-raised: #171e2c;
+  --surface-hover: #1c2434;
+  --overlay: rgba(6, 8, 13, 0.72);
+
+  /* ---- bordas ---- */
+  --border: #232b3b;
+  --border-strong: #2e3849;
+
+  /* ---- texto ---- */
+  --text-primary: #eef1f8;
+  --text-secondary: #8d96ac;
+  --text-tertiary: #5c6478;
+
+  /* ---- marca / ação ---- */
+  --accent: #5b7cfa;
+  --accent-hover: #4c6bf0;
+  --accent-soft: rgba(91, 124, 250, 0.14);
+  --accent-border: rgba(91, 124, 250, 0.35);
+
+  /* ---- sinais de status ---- */
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.14);
+  --warning: #f5a623;
+  --warning-soft: rgba(245, 166, 35, 0.14);
+  --danger: #f0506e;
+  --danger-soft: rgba(240, 80, 110, 0.14);
+  --info: #38bdf8;
+  --info-soft: rgba(56, 189, 248, 0.14);
+
+  /* ---- tipografia ---- */
+  --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", "SFMono-Regular", Menlo, Consolas, monospace;
+
+  /* ---- espaçamento ---- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+
+  /* ---- forma ---- */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* ---- elevação ---- */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.45);
+
+  --sidebar-w: 232px;
+  --topbar-h: 64px;
+}
