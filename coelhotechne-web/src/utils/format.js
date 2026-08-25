@@ -43,7 +43,7 @@ export function initials(name = "") {
   return (first + last).toUpperCase();
 }
 
-const AVATAR_PALETTE = ["#5B7CFA", "#34D399", "#F5A623", "#F0506E", "#38BDF8", "#A78BFA"];
+const AVATAR_PALETTE = ["#FF4FD8", "#4FFFB0", "#4FD8FF", "#FFE04F", "#FF6B4F", "#B14FFF"];
 
 export function avatarColor(seed = "") {
   let hash = 0;

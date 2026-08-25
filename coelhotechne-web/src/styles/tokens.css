@@ -1,35 +1,36 @@
 :root {
   /* ---- superfícies ---- */
-  --bg: #0a0e16;
-  --surface: #10151f;
-  --surface-raised: #171e2c;
-  --surface-hover: #1c2434;
-  --overlay: rgba(6, 8, 13, 0.72);
+  --bg: #000000;
+  --surface: #0a0a0a;
+  --surface-raised: #141414;
+  --surface-hover: #1f1f1f;
+  --overlay: rgba(0, 0, 0, 0.82);
 
   /* ---- bordas ---- */
-  --border: #232b3b;
-  --border-strong: #2e3849;
+  --border: #272727;
+  --border-strong: #3c3c3c;
 
   /* ---- texto ---- */
-  --text-primary: #eef1f8;
-  --text-secondary: #8d96ac;
-  --text-tertiary: #5c6478;
+  --text-primary: #ffffff;
+  --text-secondary: #a3a3a3;
+  --text-tertiary: #676767;
 
-  /* ---- marca / ação ---- */
-  --accent: #5b7cfa;
-  --accent-hover: #4c6bf0;
-  --accent-soft: rgba(91, 124, 250, 0.14);
-  --accent-border: rgba(91, 124, 250, 0.35);
+  /* ---- marca / ação — branco neon ---- */
+  --accent: #ffffff;
+  --accent-hover: #e2e2e2;
+  --accent-soft: rgba(255, 255, 255, 0.08);
+  --accent-border: rgba(255, 255, 255, 0.4);
+  --accent-glow: 0 0 1px rgba(255, 255, 255, 0.9), 0 0 18px rgba(255, 255, 255, 0.45);
 
-  /* ---- sinais de status ---- */
-  --success: #34d399;
-  --success-soft: rgba(52, 211, 153, 0.14);
-  --warning: #f5a623;
-  --warning-soft: rgba(245, 166, 35, 0.14);
-  --danger: #f0506e;
-  --danger-soft: rgba(240, 80, 110, 0.14);
-  --info: #38bdf8;
-  --info-soft: rgba(56, 189, 248, 0.14);
+  /* ---- sinais de status (seguem coloridos, em tom neon, por legibilidade) ---- */
+  --success: #3cf281;
+  --success-soft: rgba(60, 242, 129, 0.13);
+  --warning: #ffd438;
+  --warning-soft: rgba(255, 212, 56, 0.13);
+  --danger: #ff3d63;
+  --danger-soft: rgba(255, 61, 99, 0.13);
+  --info: #3ee3ff;
+  --info-soft: rgba(62, 227, 255, 0.13);
 
   /* ---- tipografia ---- */
   --font-display: "Space Grotesk", "Inter", system-ui, sans-serif;
@@ -53,9 +54,9 @@
   --radius-pill: 999px;
 
   /* ---- elevação ---- */
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.35);
-  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.45);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.04);
+  --shadow-lg: 0 20px 48px rgba(0, 0, 0, 0.7), 0 0 32px rgba(255, 255, 255, 0.04);
 
   --sidebar-w: 232px;
   --topbar-h: 64px;

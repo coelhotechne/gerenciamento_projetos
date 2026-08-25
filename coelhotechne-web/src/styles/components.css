@@ -27,10 +27,11 @@
 }
 .btn-primary {
   background: var(--accent);
-  color: #fff;
+  color: var(--bg);
 }
 .btn-primary:hover:not(:disabled) {
   background: var(--accent-hover);
+  box-shadow: var(--accent-glow);
 }
 .btn-ghost {
   background: transparent;
@@ -42,7 +43,7 @@
 }
 .btn-danger {
   background: transparent;
-  border-color: rgba(240, 80, 110, 0.4);
+  border-color: rgba(255, 61, 99, 0.4);
   color: var(--danger);
 }
 .btn-danger:hover:not(:disabled) {
