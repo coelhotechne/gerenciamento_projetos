@@ -81,10 +81,3 @@ existir:
 
 Nenhuma tela precisa ser reescrita nesse processo — só a implementação por
 trás de cada função de serviço.
-
-## Próximos passos sugeridos
-
-- Adaptar o schema do `erp_saas_storage` para as entidades daqui: aplicação,
-  usuário/permissão, assinatura, log/alerta.
-- Implementar emissão real de JWT com claims de papel no backend.
-- Adicionar testes (o projeto já vem com Testing Library configurada).
